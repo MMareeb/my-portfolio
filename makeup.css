@@ -5,10 +5,13 @@ body{
 h1{
     font-size: 60px;
 }
+h2{
+    font-size: 45px;
+}
 .orange{
     color: orange;
 }
-section{
+.flexicon{
     display: flex;
     margin-bottom: 150px;
 }
@@ -22,6 +25,7 @@ section{
 .button{
     padding: 10px 40px;
     background-color: rgba(255, 169, 71, 0.931);
+    background-image: linear-gradient(red orange);
     text-decoration: none;
     color: white;
     font-weight: bolder;
@@ -36,3 +40,25 @@ section{
     background-repeat: no-repeat;
     background-position: right;
 }
+.expicss{
+    width: 40%;
+    box-shadow: 10px 10px 40px grey;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 3.5%;
+    padding-bottom: 9%;
+    border-left: black;
+    border-radius: 10px;
+}
+.expi{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#webexpi{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue cyan);
+    border-image-slice: 1; 
+}
+footer p {text-align: center
+    ;}
